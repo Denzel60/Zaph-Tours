@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                     <div className="about-box">
                         <img src={f4Img} alt="" />
-                        <h6>Promotion</h6>
+                        <h6>Fun</h6>
                     </div>
                     <div className="about-box">
                         <img src={f5Img} alt="" />
@@ -155,6 +155,12 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">&rarr;</a>
                 </div>
             </section>
         </div >
