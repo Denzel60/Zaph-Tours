@@ -14,6 +14,10 @@
     border: 2px solid rgb(10, 245, 128);
     border-radius: 5px;
 }
+.hero p:hover{
+    transform: scale(110%);
+    transition: ease-in-out 0.5s;
+}
 .hero h3{
     font-size: 2em;
 }
@@ -28,7 +32,13 @@
     border-radius: 50%;
     display: grid;
     place-content: center;
-}.about{
+}
+.icons p:hover{
+    transform: scale(110%);
+    transition: ease-in-out 0.5s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.about{
     padding: 2em;
     line-height: 2;
 }
@@ -42,6 +52,7 @@
     padding: 1em;
     border: 1px solid rgb(10, 245, 128);
     border-radius: 5px;
+    background-color: rgb(233, 233, 241);
 }
 .about .about-sections .about-box h6{
     background-color: aquamarine;
@@ -68,4 +79,46 @@
 .about .about-sections .about-box:nth-child(6) h6{
     background-color: #e1a789;
     padding: 0.5em;
+}
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+.features .featured-destination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 2em;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 241);
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.featured .featured-destination img{
+    position: relative;
+    object-fit: contain;
+    width: 50%;
+    border-radius: 15px 15px 15px 15px;
+}
+.featured .featured-destination p{
+    padding: 0.1em;
+}
+.featured .featured-destination .rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured .featured-destination .rating p{
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 0, 0.733);
 }

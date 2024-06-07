@@ -9,6 +9,13 @@ import f3Img from '../../assets/f3.png'
 import f4Img from '../../assets/f4.png'
 import f5Img from '../../assets/f5.png'
 import f6Img from '../../assets/f6.png'
+import mtKenya from '../../assets/MtKenya.jpg'
+import mtRuwenzori from '../../assets/MtRwenzori.jpg'
+import lNakuru from '../../assets/lake-nakuru.webp'
+import tsavo from '../../assets/Tsavo.jpg'
+import nairobiPark from '../../assets/park-national-nairobi.jpg'
+import coastal from '../../assets/Coastal-Image.jpg'
+import { FaStar } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -27,7 +34,7 @@ const Home = () => {
 
             <section className="about">
 
-                <h2>About Us</h2>
+                <h1>About Us</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt recusandae error perferendis esse itaque iste porro maxime corporis vel sint eos excepturi, quo rem perspiciatis fuga cupiditate quod sapiente adipisci repellendus quia tempore enim hic neque. Necessitatibus fugiat vel est eligendi voluptatum mollitia inventore enim optio dolorem fuga, sequi aut nisi molestiae dolorum, quis, in assumenda animi asperiores expedita facilis quasi harum. Illum pariatur ipsa nostrum officia sapiente, omnis nesciunt neque repellendus necessitatibus culpa exercitationem amet quia incidunt ad. Labore, aut provident. Dignissimos, dolores fugit. Sapiente dignissimos consectetur voluptas commodi mollitia iure quam quaerat eos voluptatum. Quae, sequi pariatur.</p>
 
                 <div className="about-sections">
@@ -56,37 +63,99 @@ const Home = () => {
                         <h6>F24/7 Support</h6>
                     </div>
                 </div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+            </section>
+
+            <section className="featured">
+                <h1>Featured Destinations</h1>
+                <div className="features">
+                    <div className="featured-destination">
+                        <img src={mtKenya} alt="" />
+                        <div className="featured-rating">
+                            <h3>Mount Kenya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="featured-destination reverse">
+                        <img src={mtRuwenzori} alt="" />
+                        <div className="featured-rating">
+                            <h3>Mount Ruwenzori</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="featured-destination">
+                        <img src={lNakuru} alt="" />
+                        <div className="featured-rating">
+                            <h3>Lake Nakuru</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="featured-destination reverse">
+                        <img src={tsavo} alt="" />
+                        <div className="featured-rating">
+                            <h3>Tsavo National Park</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="featured-destination">
+                        <img src={nairobiPark} alt="" />
+                        <div className="featured-rating">
+                            <h3>Narobi National Park</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="featured-destination reverse">
+                        <img src={coastal} alt="" />
+                        <div className="featured-rating">
+                            <h3>Coastal Kenya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
+                            <div className="rating">
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                                <p><FaStar /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div >
     )
