@@ -230,3 +230,9 @@
     outline: none;
     border-radius: 0 8px 8px 0;
 }
+
+@media (max-width: 770px){
+    *{
+        box-sizing: border-box;
+    }
+}
