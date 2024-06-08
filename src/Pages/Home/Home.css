@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .about-box{
     margin: 1em;
@@ -60,7 +61,7 @@
     padding: 0.5em;
 }
 .about .about-sections .about-box:hover{
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+    box-shadow: 10px 10px 54px rgba(121, 121, 124, 0.4);
 }
 .about .about-sections .about-box:nth-child(2) h6{
     background-color: rgb(234, 127, 255);
@@ -90,6 +91,9 @@
 .features {
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .features .featured-destination{
     display: flex;
@@ -159,11 +163,11 @@
     padding: 5em;
     background-color: rgb(232, 241, 237);
     border-radius: 2em;
+    flex-wrap: wrap;
 }
 .testimony-item{
     margin: 15px;
     padding: 0 2em;
-    width: 20%;
     background: linear-gradient(rgb(149, 170, 159), rgb(253, 251, 251));
     border-radius: 1em;
     box-shadow: 10px 10px 54px rgba(1, 1, 34, 0.4);
