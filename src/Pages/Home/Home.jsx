@@ -78,11 +78,7 @@ const Home = () => {
                             <h4>Mount Kenya</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>
@@ -93,11 +89,7 @@ const Home = () => {
                             <h4>Mount Ruwenzori</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>
@@ -107,11 +99,7 @@ const Home = () => {
                             <h4>Lake Nakuru</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>
@@ -122,11 +110,7 @@ const Home = () => {
                             <h4>Tsavo National Park</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>
@@ -137,11 +121,7 @@ const Home = () => {
                             <h4>Narobi National Park</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>
@@ -151,11 +131,7 @@ const Home = () => {
                             <h4>Coastal Kenya</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
-                                <p><FaStar /></p>
+                                <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                             </div>
                         </div>
                     </div>

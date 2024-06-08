@@ -111,6 +111,10 @@
     width: 50%;
     border-radius: 15px 15px 15px 15px;
 }
+.featured .featured-destination:hover img{
+    transform: scale(104%);
+    transition: ease-in-out 0.5s;
+}
 .featured .featured-destination p{
     padding: 0.1em;
 }
@@ -122,7 +126,7 @@
 .featured .featured-destination .rating p{
     padding: 0;
     margin: 0;
-    color: rgba(255, 255, 0, 0.733);
+    color: gold;
 }
 .pagination{
     display: flex;
@@ -168,8 +172,13 @@
     height: 6em;
     width: 6em;
     border-radius: 50%;
+    /* transform: translateY(-50%);
+    margin-bottom: -50px; */
+}
+.testimonial .testimonies-wrapper .testimony-item:hover img{
     transform: translateY(-50%);
     margin-bottom: -50px;
+    transition: ease-in-out 0.5s;
 }
 
 .newsletter{
