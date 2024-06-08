@@ -75,7 +75,7 @@ const Home = () => {
                     <div className="featured-destination">
                         <img src={mtKenya} alt="" />
                         <div className="featured-rating">
-                            <h3>Mount Kenya</h3>
+                            <h4>Mount Kenya</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -90,7 +90,7 @@ const Home = () => {
                     <div className="featured-destination reverse">
                         <img src={mtRuwenzori} alt="" />
                         <div className="featured-rating">
-                            <h3>Mount Ruwenzori</h3>
+                            <h4>Mount Ruwenzori</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -104,7 +104,7 @@ const Home = () => {
                     <div className="featured-destination">
                         <img src={lNakuru} alt="" />
                         <div className="featured-rating">
-                            <h3>Lake Nakuru</h3>
+                            <h4>Lake Nakuru</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -119,7 +119,7 @@ const Home = () => {
                     <div className="featured-destination reverse">
                         <img src={tsavo} alt="" />
                         <div className="featured-rating">
-                            <h3>Tsavo National Park</h3>
+                            <h4>Tsavo National Park</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -134,7 +134,7 @@ const Home = () => {
                     <div className="featured-destination">
                         <img src={nairobiPark} alt="" />
                         <div className="featured-rating">
-                            <h3>Narobi National Park</h3>
+                            <h4>Narobi National Park</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -148,7 +148,7 @@ const Home = () => {
                     <div className="featured-destination reverse">
                         <img src={coastal} alt="" />
                         <div className="featured-rating">
-                            <h3>Coastal Kenya</h3>
+                            <h4>Coastal Kenya</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel non accusamus dolorem quisquam ab tempora molestiae eaque, fuga quae?</p>
                             <div className="rating">
                                 <p><FaStar /></p>
@@ -192,6 +192,15 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="newsletter">
+                <div className="newsletter-text">
+                    <h5>sign up for Zaph Tours newsletter for weekly email updates on matters of <span>safaris and adventures</span>.</h5>
+                </div>
+                <div className="newsletter-form">
+                    <input type="text" placeholder='Your email address' />
+                    <button type="button">SignUp</button>
+                </div>
+            </section>
         </div >
     )
 }
