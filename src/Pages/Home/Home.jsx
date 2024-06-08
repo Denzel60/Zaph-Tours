@@ -94,6 +94,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="featured-destination">
                         <img src={lNakuru} alt="" />
                         <div className="featured-rating">

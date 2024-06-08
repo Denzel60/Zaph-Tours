@@ -91,7 +91,6 @@
 .features {
     display: flex;
     flex-wrap: wrap;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -237,11 +236,25 @@
     .testimonies-wrapper{
         flex-wrap: wrap;
     }
+    .features{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .featured-destination{
         flex-direction: column;
-        width: 90%;
+        width: 20%;
+        margin: 0.2em;
     }
     .featured .featured-destination img{
         width: 100%;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-form{
+        margin-top: 2em;
+        width: 70%;
     }
 }
