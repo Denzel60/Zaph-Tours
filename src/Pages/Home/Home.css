@@ -163,7 +163,6 @@
     padding: 5em;
     background-color: rgb(232, 241, 237);
     border-radius: 2em;
-    flex-wrap: wrap;
 }
 .testimony-item{
     margin: 15px;
@@ -234,5 +233,15 @@
 @media (max-width: 770px){
     *{
         box-sizing: border-box;
+    }
+    .testimonies-wrapper{
+        flex-wrap: wrap;
+    }
+    .featured-destination{
+        flex-direction: column;
+        width: 90%;
+    }
+    .featured .featured-destination img{
+        width: 100%;
     }
 }
