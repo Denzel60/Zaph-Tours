@@ -1,6 +1,11 @@
+import './Destinations.css'
+
 const Destinations = () => {
     return (
-        <div><h1>Destination</h1></div>
+        <div>
+            <section className="hero-dest">
+            </section>
+        </div>
     )
 }
 
