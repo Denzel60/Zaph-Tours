@@ -15,6 +15,10 @@ import lNakuru from '../../assets/lake-nakuru.webp'
 import tsavo from '../../assets/Tsavo.jpg'
 import nairobiPark from '../../assets/park-national-nairobi.jpg'
 import coastal from '../../assets/Coastal-Image.jpg'
+import test1 from '../../assets/test1.jpg'
+import test2 from '../../assets/test2.jpg'
+import test3 from '../../assets/test3.jpg'
+import test4 from '../../assets/test4.jpg'
 import { FaStar } from "react-icons/fa";
 
 const Home = () => {
@@ -34,7 +38,7 @@ const Home = () => {
 
             <section className="about">
 
-                <h1>About Us</h1>
+                <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt recusandae error perferendis esse itaque iste porro maxime corporis vel sint eos excepturi, quo rem perspiciatis fuga cupiditate quod sapiente adipisci repellendus quia tempore enim hic neque. Necessitatibus fugiat vel est eligendi voluptatum mollitia inventore enim optio dolorem fuga, sequi aut nisi molestiae dolorum, quis, in assumenda animi asperiores expedita facilis quasi harum. Illum pariatur ipsa nostrum officia sapiente, omnis nesciunt neque repellendus necessitatibus culpa exercitationem amet quia incidunt ad. Labore, aut provident. Dignissimos, dolores fugit. Sapiente dignissimos consectetur voluptas commodi mollitia iure quam quaerat eos voluptatum. Quae, sequi pariatur.</p>
 
                 <div className="about-sections">
@@ -66,7 +70,7 @@ const Home = () => {
             </section>
 
             <section className="featured">
-                <h1>Featured Destinations</h1>
+                <h2>Featured Destinations</h2>
                 <div className="features">
                     <div className="featured-destination">
                         <img src={mtKenya} alt="" />
@@ -163,6 +167,31 @@ const Home = () => {
                     <a href="#">&rarr;</a>
                 </div>
             </section>
+
+            <section className="testimonial">
+                <h2>Testimonials</h2>
+
+                <div className="testimonies-wrapper">
+
+                    <div className="testimony-item">
+                        <img src={test1} alt="" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur possimus beatae neque non molestias omnis laboriosam ipsam libero ea sunt.</p>
+                    </div>
+                    <div className="testimony-item">
+                        <img src={test2} alt="" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur possimus beatae neque non molestias omnis laboriosam ipsam libero ea sunt.</p>
+                    </div>
+                    <div className="testimony-item">
+                        <img src={test3} alt="" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur possimus beatae neque non molestias omnis laboriosam ipsam libero ea sunt.</p>
+                    </div>
+                    <div className="testimony-item">
+                        <img src={test4} alt="" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur possimus beatae neque non molestias omnis laboriosam ipsam libero ea sunt.</p>
+                    </div>
+                </div>
+            </section>
+
         </div >
     )
 }
