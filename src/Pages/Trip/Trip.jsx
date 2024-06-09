@@ -31,6 +31,47 @@ const Trip = () => {
 
                     </div>
                 </div>
+
+                <div className="trips">
+                    <div className="trip-img">
+                        <img src={mtKenya} alt="" />
+                    </div>
+                    <div className="trip-description">
+                        <h2>Mount Kenya</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt quae ullam maxime minima ducimus aliquid tempora quos ea accusantium.</p>
+                        <div className="trip-location">
+                            <button><FaLocationDot />      Kenya</button>
+                        </div>
+                    </div>
+                    <div className="trip-cost">
+                        <p>Reviews:  <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
+                        <h3>Ksh 100000 </h3>
+                        <p>/group of 6</p> <h3> Ksh 20000  </h3>
+                        <p>/person</p>
+
+                    </div>
+                </div>
+
+                <div className="trips">
+                    <div className="trip-img">
+                        <img src={mtKenya} alt="" />
+                    </div>
+                    <div className="trip-description">
+                        <h2>Mount Kenya</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt quae ullam maxime minima ducimus aliquid tempora quos ea accusantium.</p>
+                        <div className="trip-location">
+                            <button><FaLocationDot />      Kenya</button>
+                        </div>
+                    </div>
+                    <div className="trip-cost">
+                        <p>Reviews:  <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
+                        <h3>Ksh 100000 </h3>
+                        <p>/group of 6</p> <h3> Ksh 20000  </h3>
+                        <p>/person</p>
+
+                    </div>
+                </div>
+
                 <div className="trips">
                     <div className="trip-img">
                         <img src={mtKenya} alt="" />
@@ -69,6 +110,7 @@ const Trip = () => {
 
                     </div>
                 </div>
+
                 <div className="trips">
                     <div className="trip-img">
                         <img src={mtKenya} alt="" />
@@ -88,45 +130,6 @@ const Trip = () => {
 
                     </div>
                 </div>
-                <div className="trips">
-                    <div className="trip-img">
-                        <img src={mtKenya} alt="" />
-                    </div>
-                    <div className="trip-description">
-                        <h2>Mount Kenya</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt quae ullam maxime minima ducimus aliquid tempora quos ea accusantium.</p>
-                        <div className="trip-location">
-                            <button><FaLocationDot />      Kenya</button>
-                        </div>
-                    </div>
-                    <div className="trip-cost">
-                        <p>Reviews:  <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                        <h3>Ksh 100000 </h3>
-                        <p>/group of 6</p> <h3> Ksh 20000  </h3>
-                        <p>/person</p>
-
-                    </div>
-                </div>
-                <div className="trips">
-                    <div className="trip-img">
-                        <img src={mtKenya} alt="" />
-                    </div>
-                    <div className="trip-description">
-                        <h2>Mount Kenya</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt quae ullam maxime minima ducimus aliquid tempora quos ea accusantium.</p>
-                        <div className="trip-location">
-                            <button><FaLocationDot />      Kenya</button>
-                        </div>
-                    </div>
-                    <div className="trip-cost">
-                        <p>Reviews:  <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                        <h3>Ksh 100000 </h3>
-                        <p>/group of 6</p> <h3> Ksh 20000  </h3>
-                        <p>/person</p>
-
-                    </div>
-                </div>
-
 
             </section>
         </div>

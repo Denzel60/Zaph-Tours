@@ -62,3 +62,24 @@
     background-color: rgb(74, 156, 177);
     color: white;
 }
+@media (max-width: 1100px){
+    .trips{
+        flex-direction: column;
+    }.trip-cards .trip-img{
+        width: 100%;
+    }
+    .trip-cards .trip-img img{
+        object-fit: contain;
+        width: 100%;
+        border-radius: 25px 25px 0 0px;
+    }
+    .trip-cards .trip-description{
+        width: 100%;
+    }
+    .trip-cards .trip-cost{
+        width: 100%;
+        border-radius: 0 0 25px 25px;
+        background-color: rgb(74, 156, 177);
+        color: white;
+    }
+}

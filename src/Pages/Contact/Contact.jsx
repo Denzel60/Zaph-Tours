@@ -29,7 +29,8 @@ const Contact = () => {
                     <input type="text" placeholder='Enter your phone number here +25412345678' />
                     <input type="email" placeholder='Enter your email here e.g. example@gmail.com' name="" id="" />
                     <input type="text" placeholder='Enter Subject' />
-                    <textarea name="message" rows="40" cols="50">Your message</textarea>
+                    <textarea name="message" rows="10" cols="20">Your message</textarea>
+                    <button type="button">Submit</button>
                 </div>
             </section>
         </div>

@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header'
+import Newsletter from './Components/Newsletter'
 import Home from './Pages/Home/Home'
 import Destinations from './Pages/Destinations/Destinations'
 import Trip from './Pages/Trip/Trip'
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Trip" element={<Trip />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+        < Newsletter />
       </BrowserRouter>
     </>
   )
