@@ -36,6 +36,11 @@
     background: transparent;
     outline: none;
     border: 2px solid rgb(211, 209, 209);
+}
+.contact .contact-form input:hover {
+    border-bottom: 5px solid black;
+    transform: scale(105%);
+    transition: ease-in-out 0.5s;
     color: black;
 }
 .contact .contact-form textarea{
@@ -44,6 +49,7 @@
     margin: 1.5em;
     border: 2px solid rgb(211, 209, 209);
     color: black;
+    font-size:x-large;
 }
 .contact .contact-form button{
     padding: 1em;

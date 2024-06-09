@@ -60,9 +60,12 @@
 .destinations .destination-text{
     color: black;
 }
-@media (max-width: 645px){
+@media (max-width: 750px){
     .destination-cards .destinations{
-        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0.5em;
+        width: 95%;
     }
 }
