@@ -19,7 +19,7 @@ const Contact = () => {
                     <p><FaRegClock />    Monay to Saturday: 9:00am to 4pm</p>
                 </div>
                 <div className="contact-info">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.5067340730834!2d37.14463730970109!3d-0.7160659992739405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289873299b19ed%3A0x97675389aba81506!2sMurang&#39;a%20University%20of%20Technology!5e0!3m2!1sen!2ske!4v1717931815079!5m2!1sen!2ske" width="600" height="450" ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.5067340730834!2d37.14463730970109!3d-0.7160659992739405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289873299b19ed%3A0x97675389aba81506!2sMurang&#39;a%20University%20of%20Technology!5e0!3m2!1sen!2ske!4v1717931815079!5m2!1sen!2ske" width="550" height="450" ></iframe>
                 </div>
             </section>
 

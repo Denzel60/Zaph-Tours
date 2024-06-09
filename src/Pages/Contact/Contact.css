@@ -55,3 +55,13 @@
         flex-direction: column;
     }
 }
+@media (max-width: 660px){
+    .about-contact .contact-info iframe{
+        width: 500;
+    }
+    .contact .contact-form input{
+        height: 3em;
+        margin: 1em;
+        width: 90%;
+    }
+}
