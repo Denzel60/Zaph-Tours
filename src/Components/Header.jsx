@@ -8,10 +8,10 @@ const Header = () => {
                 <h3>Zaph Tour</h3>
             </div>
             <div className="navbar">
-                <h3><Link to="/">Home</Link></h3>
-                <h3><Link to="/Destinations">Destination</Link></h3>
-                <h3><Link to="/Trip">Trip</Link></h3>
-                <h3><Link to="/Contact">Contact Us</Link></h3>
+                <h4><Link to="/">Home</Link></h4>
+                <h4><Link to="/Destinations">Destination</Link></h4>
+                <h4><Link to="/Trip">Trip</Link></h4>
+                <h4><Link to="/Contact">Contact Us</Link></h4>
             </div>
             <div className="travel-button">
                 <button type="button">Travel Now</button>

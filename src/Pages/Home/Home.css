@@ -50,7 +50,7 @@
     flex-wrap: wrap;
 }
 .about-box{
-    margin: 1em;
+    margin: 0.8em;
     padding: 1em;
     border: 1px solid rgb(10, 245, 128);
     border-radius: 5px;
@@ -81,6 +81,9 @@
 .about .about-sections .about-box:nth-child(6) h6{
     background-color: #e1a789;
     padding: 0.5em;
+}
+.about .about-sections .about-box:hover h6{
+    background-color: grey;
 }
 .featured{
     display: flex;
@@ -185,6 +188,9 @@
 @media (max-width: 820px){
     *{
         box-sizing: border-box;
+    }
+    .icons p{
+        margin: 0.5em;
     }
     .testimonies-wrapper{
         flex-wrap: wrap;
