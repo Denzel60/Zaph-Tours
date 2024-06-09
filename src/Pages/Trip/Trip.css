@@ -1,0 +1,64 @@
+.hero-trip{
+    background: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, 0.2)), url(../../assets/Dest3.jpg);
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.hero-trip p{
+    padding: 0.9em 2em;
+    border: 2px solid rgb(10, 245, 128);
+    border-radius: 5px;
+}
+.hero-trip p:hover{
+    transform: scale(110%);
+    transition: ease-in-out 0.5s;
+}
+.trip-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    flex-direction: column;
+    margin: 2em 0;
+}
+.trips{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin: 1em 0em;
+    box-shadow: 10px 10px 54px rgba(1, 1, 34, 0.4);
+}
+.trip-cards .trip-img{
+    width: 30%;
+}
+.trip-cards .trip-img img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+}
+.trip-cards .trip-description{
+    width: 30%;
+}
+.trip-cards .trip-description .trip-location{
+    display: grid;
+    place-content: center;
+}
+.trip-cards .trip-description .trip-location button{
+    border: 1px solid blue;
+    border-radius: 1.5em;
+    padding: 0.5em 1.5em;
+}
+.trip-cards .trip-cost{
+    width: 30%;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(74, 156, 177);
+    color: white;
+}
