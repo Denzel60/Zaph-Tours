@@ -1,0 +1,62 @@
+.hero-dest{
+    background: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, 0.2)), url(../../assets/Dest.jpg);
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.hero-dest p{
+    padding: 0.9em 2em;
+    border: 2px solid rgb(10, 245, 128);
+    border-radius: 5px;
+}
+.hero-dest p:hover{
+    transform: scale(110%);
+    transition: ease-in-out 0.5s;
+}
+.destination-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3em 0em;
+}
+.destination-cards .destinations{
+    width: 45%;
+    margin: 1em;
+    border-radius: 1em;
+    color: white;
+    box-shadow: 10px 10px 54px rgba(1, 1, 34, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.destination-cards .destinations button{
+    display: none;
+}
+.destination-cards .destinations:hover button{
+    transform: translateY(-150%);
+    margin-bottom: -44px;
+    transition: ease-in-out 0.5s;
+    display: block;
+    place-items: center;
+    border: 2px solid rgb(246, 246, 250);
+}
+.destination-cards .destinations img{
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 1em;
+}
+.destination-cards .destinations:hover img{
+    opacity: 0.8;
+}
+.destinations .destination-text{
+    color: black;
+}
