@@ -30,8 +30,6 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
@@ -45,7 +43,7 @@ h2 {
 }
 h3 {
   font-size: 1.5em;
-  line-height: 0.2;
+  /* line-height: 0.2; */
   text-transform: capitalize;
 }
 h4 {
